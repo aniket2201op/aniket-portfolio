@@ -24,7 +24,7 @@ export default function Experience({ experience }) {
               maxWidth: 480,
             }}
           >
-            2 years at IDBI Intech Ltd — enterprise banking and AML compliance
+            ~2 years at IDBI Intech Ltd — enterprise banking and AML compliance
             systems.
           </p>
         </FadeIn>

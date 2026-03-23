@@ -8,7 +8,7 @@ const portfolioData = {
   linkedin: "linkedin.com/in/aniketop",
   github: "github.com/aniket2201op",
   summary:
-    "Java Developer with 2+ years of hands-on experience at IDBI Intech Ltd, building enterprise-grade banking and AML compliance systems. Delivered a 30% reduction in database latency and improved transaction screening accuracy by 25%. Promoted from MT to Executive within one year.",
+    "Java Developer with ~2 years of hands-on experience at IDBI Intech Ltd, building enterprise-grade banking and AML compliance systems. Delivered a 30% reduction in database latency and improved transaction screening accuracy by 25%. Promoted from MT to Executive within one year.",
 
   keySkills: [
     "Java",
@@ -123,9 +123,8 @@ const portfolioData = {
   ],
 
   heroStats: [
-    { n: "2+",  l: "Years Experience" },
-    { n: "92",  l: "ATS Score" },
-    { n: "6",   l: "APIs Deployed" },
+    { n: "~2",  l: "Years Experience" },
+    { n: "~6",   l: "APIs Deployed" },
     { n: "↑",   l: "Promoted in 12mo" },
   ],
 };
