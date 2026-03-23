@@ -48,14 +48,24 @@ export default function Navbar({ activeSection }) {
           ))}
         </div>
 
-        {/* CTA */}
-        <button
-          className="contact-btn contact-btn-secondary hide-mobile"
-          style={{ padding: "8px 18px", fontSize: 13 }}
-          onClick={() => scrollTo("Contact")}
-        >
-          Hire me
-        </button>
+        {/* Desktop CTAs */}
+        <div className="hide-mobile" style={{ display: "flex", gap: 10, alignItems: "center" }}>
+          <a
+            href="/Aniket_Shinde_Resume.pdf"
+            download="Aniket_Shinde_Resume.pdf"
+            className="contact-btn contact-btn-download"
+            style={{ padding: "8px 16px", fontSize: 13 }}
+          >
+            ↓ Resume
+          </a>
+          <button
+            className="contact-btn contact-btn-secondary"
+            style={{ padding: "8px 18px", fontSize: 13 }}
+            onClick={() => scrollTo("Contact")}
+          >
+            Hire me
+          </button>
+        </div>
 
         {/* Hamburger */}
         <button
@@ -96,6 +106,14 @@ export default function Navbar({ activeSection }) {
               {n}
             </button>
           ))}
+          <a
+            href="/Aniket_Shinde_Resume.pdf"
+            download="Aniket_Shinde_Resume.pdf"
+            className="contact-btn contact-btn-download"
+            style={{ marginTop: 8, textAlign: "center", justifyContent: "center" }}
+          >
+            ↓ Download Resume
+          </a>
         </div>
       )}
     </>

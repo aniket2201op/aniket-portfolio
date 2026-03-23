@@ -60,6 +60,13 @@ export default function Contact({ data }) {
             >
               GitHub
             </a>
+            <a
+              href="/Aniket_Shinde_Resume.pdf"
+              download="Aniket_Shinde_Resume.pdf"
+              className="contact-btn contact-btn-download"
+            >
+              ↓ Download Resume
+            </a>
           </div>
         </FadeIn>
 

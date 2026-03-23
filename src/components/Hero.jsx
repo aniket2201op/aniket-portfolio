@@ -1,7 +1,4 @@
 export default function Hero({ data }) {
-  const scrollToContact = () =>
-    document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
-
   return (
     <section
       id="about"
@@ -101,12 +98,19 @@ export default function Hero({ data }) {
                 <span style={{ fontSize: 16 }}>→</span>
               </a>
               <a
+                href="/Aniket_Shinde_Resume.pdf"
+                download="Aniket_Shinde_Resume.pdf"
+                className="contact-btn contact-btn-download"
+              >
+                ↓ Download Resume
+              </a>
+              <a
                 href={`https://${data.github}`}
                 target="_blank"
                 rel="noreferrer"
                 className="contact-btn contact-btn-secondary"
               >
-                View GitHub
+                GitHub
               </a>
             </div>
 

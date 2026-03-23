@@ -278,3 +278,15 @@ body {
   .projects-grid { grid-template-columns: 1fr !important; }
   .cert-grid     { grid-template-columns: 1fr !important; }
 }
+
+/* ── Download button ── */
+.contact-btn-download {
+  background: transparent;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.contact-btn-download:hover {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.4);
+  transform: translateY(-2px);
+}
